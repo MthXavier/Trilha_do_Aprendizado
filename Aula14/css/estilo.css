@@ -1,0 +1,21 @@
+div{
+    border: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagem{
+    padding-left: 74px;
+    padding-top: 5px;
+}
+.navbar{
+    position: absolute;
+    padding-left: 1100px;
+    top: 38px;
+}
+.texto1{
+    text-align: center;
+}
+.texto2{
+    text-align: center;
+    padding: 70px;
+    padding-top: 0px;
+}

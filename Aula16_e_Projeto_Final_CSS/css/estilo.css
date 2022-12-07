@@ -1,0 +1,91 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fundo{
+    width: 100%;
+    height: 781px;
+    position: relative;
+}
+
+.nav{
+    font-style: oblique;
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+    position: absolute; position: fixed;
+    top: 0;
+    padding-right: 73.3%;
+    padding-top: 10px; padding-bottom: 10px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: chocolate;
+}
+
+.intro h1{
+    font-style: oblique;
+    opacity: 80%;
+    border-style: groove;
+    font-family: cursive;
+    background-image: url(https://st3.depositphotos.com/2129849/13469/v/950/depositphotos_134697472-stock-illustration-colored-light-yellow-blue-background.jpg);
+    position: absolute;
+    top: 45%;
+    right: 43%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sp{
+    font-size: larger;
+}
+
+.sp2{
+    color: red;
+}
+
+.historia{
+    text-align: center;
+}
+
+.pdi{
+    text-decoration: none;
+}
+
+.pdi h1{
+    text-align: center;
+}
+
+.sp3{
+    font-size: x-large;
+}
+
+.outros{
+    text-align: center;
+}
+
+img{
+    display: flex;
+    margin: auto;
+}
+.rp{
+    background-color: burlywood;
+    padding: 10px;
+}

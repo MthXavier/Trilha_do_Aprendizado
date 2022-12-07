@@ -1,0 +1,43 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div{
+    height: 180px;
+    width: 400px;
+    padding: 1px;
+}
+
+.box1{
+    position: static; /*Não permite reposicionar o box*/
+    top: 500px;
+    left: 500px;
+    background-color: rgba(127, 255, 212, 0.664);
+}
+
+.box2{
+    background-color: rgba(100, 148, 237, 0.623);
+    position: relative; /*Altera o movimento em relação onde o box foi definido*/
+    left: 480px;
+    bottom: 200px;
+}
+
+.box3{
+    background-color: rgba(222, 184, 135, 0.712);
+    position: absolute;
+    bottom: 0px;
+    left: 550px;
+}
+
+.box4{
+    background-color: darkkhaki;
+    position: fixed;
+    top: 0;
+}
+
+.box5{
+    background-color: darkgray;
+    position: sticky;
+    bottom: 300px;
+}
+    

@@ -1,0 +1,12 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:ivory;
+    color: rgb(0, 0, 0);
+ }
+ h1{
+     color:rgb(145, 126, 126);
+     background-color:rgb(250, 177, 149);
+ }
+ h2, h3{
+     color:rgb(252, 150, 110);
+ }

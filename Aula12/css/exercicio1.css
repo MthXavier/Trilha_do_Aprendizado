@@ -1,0 +1,33 @@
+body{
+
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid gray;
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(21, 180, 180);
+    background-color: lightsteelblue;
+    border: 2px dotted lightslategray;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+
+div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightseagreen;
+    background-color: lightsteelblue;
+    border: 2px dotted mediumslateblue;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin: 10px;
+    height: 120px;
+    width: 500px;
+}

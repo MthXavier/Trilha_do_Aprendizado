@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 08</title>
+    <link rel="icon" href="">
+    <style>
+      table, th, td {
+        border: 1px solid black;
+      }
+      del {background-color: tomato;}
+      ins {background-color: yellow;}
+    </style>
+
+</head>
+
+<body>
+
+<font face="Candara" size="5">
+<h2>table</h2>
+
+  <p><b>Explicação</b></p>
+  <br>A tag &lt;table&gt; define uma tabela HTML.
+  <br>Uma tabela HTML consiste em um &lt;table&gt; elemento e um ou mais elementos &lt;tr&gt; , &lt;th&gt; e &lt;td&gt;.
+  <br>
+  <br>O elemento &lt;tr&gt; define uma linha de tabela, o elemento &lt;th&gt; define um cabeçalho de tabela e 
+  <br>o elemento &lt;td&gt; define uma célula de tabela.
+  <br>    
+  <br>Uma tabela HTML também pode incluir elementos &lt;caption&gt; , &lt;colgroup&gt; , &lt;thead&gt; , &lt;tfoot&gt; e &lt;tbody&gt;.
+    <p><b>Exemplo</b></p>
+    <table>
+        <tr>
+          <th>Mês</th>
+          <th>Valor Gasto</th>
+        </tr>
+        <tr>
+          <td>Janeiro</td>
+          <td>R$2245,00</td>
+        </tr>
+        <tr>
+          <td>Fevereiro</td>
+          <td>R$3890,00</td>
+        </tr>
+      </table>
+   
+<h2>del e ins</h2>
+
+  <p><b>Explicação</b></p>
+  <br>A &lt;del&gt; tag define o texto que foi excluído de um documento. Os navegadores geralmente riscam uma linha através do texto excluído.
+  <br>A &lt;ins&gt; tag define um texto que foi inserido em um documento. Os navegadores geralmente sublinham o texto inserido.
+    <p><b>Exemplo</b></p>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+<h2>sub e sup</h2>
+
+  <p><b>Explicação</b></p>
+  <br>A &lt;sub&gt; tag define o texto subscrito. O texto subscrito aparece meio caractere abaixo da linha normal e às vezes é renderizado em uma fonte menor.
+  <br>O texto subscrito pode ser usado para fórmulas químicas, como H₂O.
+  <br>A &lt;sup&gt; tag define o texto sobrescrito. O texto sobrescrito aparece meio caractere acima da linha normal e, às vezes, é renderizado em uma fonte menor. 
+  <br>O texto sobrescrito pode ser usado para notas de rodapé, como WWW [1].
+    <p><b>Exemplo</b></p>
+    <p>Este texto contém texto <sub>subscrito</sub></p>
+    <p>Este texto contém texto <sup>sobrescrito</sup></p>
+
+<h2>blockquote e q</h2>
+
+  <p><b>Explicação</b></p>
+  <br>A &lt;blockquote&gt; tag especifica uma seção que é citada de outra fonte.
+  <br>Os navegadores geralmente recuam elementos &lt;blockquote&gt; (veja o exemplo abaixo para ver como remover o recuo).
+  <br>A &lt;q&gt; tag define uma cotação curta.
+  <br>Os navegadores normalmente inserem aspas ao redor da cotação.
+    <p><b>Exemplo</b></p>
+
+      <blockquote cite="http://www.worldwildlife.org/who/index.html">
+      For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+      </blockquote>
+
+    <p>WWF's goal is to:
+      <q>Build a future where people live in harmony with nature.</q>
+      We hope they succeed.</p>
+
+<h2>abbr</h2>
+
+  <p><b>Explicação</b></p>
+  <br>A &lt;abbr&gt; tag define uma abreviação ou um acrônimo, como "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+    <p><b>Exemplo</b></p>
+    The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+
+<h2>address</h2>
+
+  <p><b>Explicação</b></p>
+  <br>A &lt;address&gt; tag define as informações de contato do autor/proprietário de um documento ou artigo.
+  <br>As informações de contato podem ser um endereço de e-mail, URL, endereço físico, número de telefone, identificador de mídia social, etc.
+  <br>O texto no elemento &lt;address&gt; geralmente é renderizado em itálico e os navegadores sempre adicionam uma quebra de linha antes e depois do &lt;address&gt;.
+    <p><b>Exemplo</b></p>
+      <address>
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+      </address>
+
+<h2>cite</h2>
+
+  <p><b>Explicação</b></p>
+  <br>A tag &lt;cite&gt; define o título de um trabalho criativo (por exemplo, um livro, um poema, uma música, um filme, uma pintura, uma escultura, etc.).
+  <br><b>Nota:</b> O nome de uma pessoa não é o título de uma obra.
+  <br>O texto no &lt;cite&gt; geralmente é renderizado em itálico .
+    <p><b>Exemplo</b></p>
+    <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+<h2>bdo</h2>
+
+  <p><b>Explicação</b></p>
+  <br>A tag &lt;bdo&gt; é usada para substituir a direção do texto atual.
+  <br>BDO significa substituição bidirecional.
+    <p><b>Exemplo</b></p>
+    <bdo dir="rtl">
+      This text will go right-to-left.
+    </bdo>
+
+<h2>code, pre e kbd</h2>
+
+  <p><b>Explicação</b></p>
+  <br>A tag &lt;code&gt; é usada para definir um pedaço de código de computador. O conteúdo interno é exibido na fonte monoespaçada padrão do navegador.
+  <br>Dica: esta tag não está obsoleta. No entanto, é possível obter um efeito mais rico usando CSS (veja o exemplo abaixo).
+  <br>A tag &lt;pre&gt; define o texto pré-formatado.
+  <br>O texto em um &lt;pre&gt; é exibido em uma fonte de largura fixa e o texto preserva espaços e quebras de linha. O texto será exibido exatamente como escrito no código-fonte HTML.
+  <br>A tag &lt;kdb&gt; é usada para definir a entrada do teclado. O conteúdo interno é exibido na fonte monoespaçada padrão do navegador.
+  <br><b>Dica:</b> esta tag não está obsoleta. No entanto, é possível obter um efeito mais rico usando CSS (veja o exemplo abaixo).
+    <p><b>Exemplo</b></p>
+
+    <p>The HTML <code>button</code> tag defines a clickable button.</p>
+    <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+
+    <pre>
+      Text in a pre element
+      is displayed in a fixed-width
+      font, and it preserves
+      both      spaces and
+      line breaks
+    </pre>
+
+    <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+    <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+
+</font>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    width: 90%;
+    margin: 0 auto;
+    background: radial-gradient( #038C7F, #A9D9D0, #F2E7DC);
+}
+header{ /*definir cabeçalho*/
+    font-family: cursive;
+    background-color: #161616;
+    border-radius: 5px; /*arredondar cantos*/
+    margin-top: 10px;
+}
+.logo img{ /*estilizando a imagem do logo*/
+    width:45%; /*define o tamanho da imagem em relação ao aumento ou diminuição da largura do navegador*/
+    padding-top: 50px;
+}
+.navegacao{
+    overflow: hidden;
+}
+.navegacao a{ /*estilização de hyperlinks*/
+    color: rgb(173, 173, 173);
+    text-decoration: none; /*elimina o sublinhado*/
+    float: right; /*disposição dos hyperlinks a direita*/
+    padding: 10px;
+}
+.navegacao a:hover{
+    color: #e32936;
+}
+.principal{
+    background-color: #A9D9D0;
+    text-align: justify;
+    padding: 15px; /*preenchimento*/
+    margin: 15px 10px 25px 10px;
+    float: left; /*disposição do conteúdo*/
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #027373;
+}
+.rodape{
+    color: #161616;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width:800px){ /*responsividade - alteração do layout de acordo com o tamanho da tela*/
+    body,.principal, .conteudo{ /*define os escopos a serem alterados*/
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+    }
+}
